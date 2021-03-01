@@ -1674,3 +1674,11 @@ h4 {
 .centerItem {
     justify-content: center;
 }
+
+.centrar {
+    text-align: center;
+}
+
+.about12 p {
+    font-size: 17px !important;
+}
