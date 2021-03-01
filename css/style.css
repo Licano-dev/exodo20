@@ -1670,3 +1670,7 @@ h4 {
 #testV {
     padding-top: 10px;
 }
+
+.centerItem {
+    justify-content: center;
+}
