@@ -630,6 +630,13 @@
                         <div id="ipArea">
                             Dirección IP: <span id="ip"></span>
                         </div>
+                        <script>
+                            var hoy = new Date();
+                            var fecha = hoy.getDate() + ' - ' + (hoy.getMonth() + 1) + ' - ' + hoy.getFullYear();
+                            var hora = hoy.getHours() + ':' + hoy.getMinutes();
+                            var fechaHora = "Fecha: " + fecha + ' Hora: ' + hora;
+                            document.write(`<span class="fechaHora">${fechaHora}</span>`)
+                        </script>
                     </div>
                     <!-- <a href="https://github.com/librespeed/speedtest">Source code</a> -->
                     <script type="text/javascript">
